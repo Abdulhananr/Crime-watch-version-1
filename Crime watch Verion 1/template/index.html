@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <!-- basic -->
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <!-- mobile metas -->
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+   <!-- site metas -->
+   <title>Crime watch</title>
+   <meta name="keywords" content="">
+   <meta name="description" content="">
+   <meta name="author" content="">
+   <!-- bootstrap css -->
+   <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+   <!-- style css -->
+   <link rel="stylesheet" href="/static/css/style.css">
+   <!-- responsive-->
+   <link rel="stylesheet" href="/static/css/responsive.css">
+   <!-- awesome fontfamily -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+</head>
+<!-- body -->
+
+<body class="main-layout">
+   <!-- loader  -->
+   <div class="loader_bg">
+      <div class="loader"><img src="/static/images/loading.gif" alt="" /></div>
+   </div>
+   <!-- end loader -->
+   <div id="mySidepanel" class="sidepanel">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+      <a class="active" href="index">Home</a>
+      <a href="FileAudioForensic">File Audio Forensic</a>
+      <a href="LiveAudioForensic">Live Audio Forensic</a>
+      <a href="logout">Log out</a>
+   </div>
+   <!-- header -->
+   <header>
+      <!-- header inner -->
+      <div class="head-top">
+         <div class="container-fluid">
+            <div class="row d_flex">
+               <div class="col-sm-3">
+                  <div class="col-md-12">
+                     <a class="logo_footer"><img style="height: 70px; width: 70px;" src="\static\images\output-onlinepngtools.png" alt="#" /></a>
+                  </div>
+               </div>
+               <div class="col-sm-9">
+                  <ul class="email text_align_right">
+                     <li class="d_none"> <a href="javascript:void(0)"><i class="fa fa-user" aria-hidden="true"></i>
+                           {{ username }}</a>
+                     </li>
+                     <li> <button class="openbtn" onclick="openNav()"><img src="/static/images/menu_btn.png"></button>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+   </header>
+   <!-- end header -->
+   <!-- start slider section -->
+   <div id="top_section" class=" banner_main">
+      <div class="container">
+         <div class="row d_flex">
+            <div class="col-md-6">
+               <div class="airmic">
+                  <h1>Unveiling Criminal Insights</h1>
+                  <p>Empowering investigations with comprehensive audio forensic services, our system offers precise analysis, live monitoring, and efficient summarization, unlocking crucial evidence for criminal inquiries
+                  </p>
+                  <a class="read_more" href="LiveAudioForensic">Check now</a>
+               </div>
+            </div>
+            <div class="col-md-6">
+               <div class="mic_img">
+                  <figure><img src="/static/images/right_side.png" alt="#" /></figure>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- end slider section -->
+   <!-- services -->
+   <div class="services">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-12">
+               <div class="titlepage text_align_center">
+                  <h2>Real-Time Crime Tracker</h2>
+                  <p>Stay informed with our live dashboard showcasing criminal activity trends, from the past hour to the past year, powered by cutting-edge technology</p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- end services -->
+   
+   <!-- our_mics -->
+
+   <!-- end our_mics -->
+   <!-- testimonial -->
+   <div class="testimonial">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-8 offset-md-2">
+               <div class="titlepage text_align_center">
+                  <h2>What We Offer</h2>
+                  <p>Explore our comprehensive range of forensic analysis solutions, tailored to uncover the truth and support criminal investigations effectively</p>
+               </div>
+            </div>
+         </div>
+         <div class="row d_flex">
+            <div class="col-md-10 offset-md-1">
+               <div id="testimo" class="carousel slide our_testimonial" data-ride="carousel">
+                  <ol class="carousel-indicators">
+                     <li data-target="#testimo" data-slide-to="0" class="active"></li>
+                     <li data-target="#testimo" data-slide-to="1"></li>
+                     <li data-target="#testimo" data-slide-to="2"></li>
+                  </ol>
+                  <div class="carousel-inner">
+                     <div class="carousel-item active">
+                        <div class="container">
+                           <div class="carousel-caption posi_in">
+                              <div class="testomoniam_text">
+                                 <i class="text_align_left d-block"><img src="/static/images/icon.png" alt="#" /></i>
+                                 <p>Delve into the intricacies of live audio forensics, where we employ cutting-edge techniques to conduct real-time analysis and enhancement of audio data, providing invaluable insights during ongoing events for enhanced investigative purposes.</p>
+                                 <i class="text_align_right d-block"><img src="/static/images/icon_right.png"
+                                       alt="#" /></i>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="carousel-item">
+                        <div class="container">
+                           <div class="carousel-caption posi_in">
+                              <div class="testomoniam_text">
+                                 <i class="text_align_left d-block"><img src="/static/images/icon.png" alt="#" /></i>
+                                 <p>Discover the power of audio summarization, as we condense lengthy audio content into concise representations, capturing vital information and streamlining retrieval processes for enhanced efficiency</p>
+                                 <i class="text_align_right d-block"><img src="/static/images/icon_right.png"
+                                       alt="#" /></i>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="carousel-item">
+                        <div class="container">
+                           <div class="carousel-caption posi_in">
+                              <div class="testomoniam_text">
+                                 <i class="text_align_left d-block"><img src="/static/images/icon.png" alt="#" /></i>
+                                 <p>Experience the precision of audio forensics, where scientific analysis and enhancement of audio recordings are meticulously conducted to serve investigative and legal purposes with unparalleled accuracy and reliability</p>
+                                 <i class="text_align_right d-block"><img src="/static/images/icon_right.png"
+                                       alt="#" /></i>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#testimo" role="button" data-slide="prev">
+                     <i class="fa fa-angle-left" aria-hidden="true"></i>
+                     <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#testimo" role="button" data-slide="next">
+                     <i class="fa fa-angle-right" aria-hidden="true"></i>
+                     <span class="sr-only">Next</span>
+                  </a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- end testimonial -->
+   <!-- contact section -->
+   <div class="contact left_cross_right">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-12">
+               <div class="titlepage text_align_left">
+                  <h2>Get in Touch</h2>
+                  <p>Reach out to us for any inquiries, collaborations, or expert forensic assistance. Our team is here to support you every step of the way</p>
+               </div>
+            </div>
+            <div class="col-md-12">
+
+               <form id="request" class="main_form" method="post" action="/contact">
+                  {% csrf_token %}
+                  <div class="row">
+                     <div class="col-md-12">
+                        <input class="contactus" placeholder="Your Name" type="text" name="name">
+                     </div>
+                     <div class="col-md-6">
+                        <input class="contactus" placeholder="Email" type="email" name="email">
+                     </div>
+                     <div class="col-md-6">
+                        <input class="contactus" placeholder="Phone Number" type="text" name="phone">
+                     </div>
+                     <div class="col-md-12">
+                        <textarea class="textarea" placeholder="Message" name="desc"></textarea>
+                     </div>
+                     <div class="col-md-12">
+                        <button class="send_btn" type="submit">Send</button>
+                     </div>
+                  </div>
+               </form>
+               <!-- <div id="success-message" style="display: none;">
+                  <p class="success-text"></p>
+               </div> -->
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- end contact section -->
+   <!-- footer -->
+   <footer>
+      <div class="footer">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <a class="logo_footer"><img style="height: 70px; width: 70px;" src="\static\images\output-onlinepngtools.png" alt="#" /></a>
+               </div>
+               <div class="col-md-5">
+                  <div class="Informa conta">
+                     <h3>Adderess</h3>
+                     <ul>
+                        <li> SS CASE, Street 33 Block A,<br>  Multi Gardens B-17, Islamabad
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="Informa conta">
+                     <h3>Contact Us</h3>
+                     <ul>
+                        <li> <a href="Javascript:void(0)"> (+92) 3170000240
+                           </a>
+                        </li>
+                        <li> <a href="Javascript:void(0)"> contact@crimewatch.com
+                           </a>
+                        </li>
+                     </ul>
+                  </div>
+                  <ul class="social_icon text_align_center">
+                     <li> <a href="Javascript:void(0)"><i class="fa fa-facebook-f"></i></a></li>
+                     <li> <a href="Javascript:void(0)"><i class="fa fa-twitter"></i></a></li>
+                     <li> <a href="Javascript:void(0)"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                  </ul>
+               </div>
+               <div class="col-md-3">
+                  <div class="Informa">
+                     <h3>Newsletter</h3>
+                     <form class="newslatter_form">
+                        <input class="ente" placeholder="Enter your email" type="text" name="Enter your email">
+                        <button class="subs_btn">Subscribe</button>
+                     </form>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="copyright text_align_center">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-10 offset-md-1">
+                     <p>© 2023 All Rights Reserved. Design by Crimewatch.co</a></p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </footer>
+   <!-- end footer -->
+   <!-- Javascript files-->
+   <script src="/static/js/jquery.min.js"></script>
+   <script src="/static/js/bootstrap.bundle.min.js"></script>
+   <script src="/static/js/jquery-3.0.0.min.js"></script>
+   <script src="/static/js/custom.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+   <!-- Handle form submission with AJAX -->
+   <script>
+      $(document).ready(function () {
+         $('#request').submit(function (e) {
+            e.preventDefault(); // Prevent the form from submitting normally
+            var form = $(this);
+            $.ajax({
+               type: form.attr('method'),
+               url: form.attr('action'),
+               data: form.serialize(),
+               success: function (response) {
+                  // If the form was submitted successfully, show the success message
+                  $('#success-message').show();
+                  alert("The Message Send Successfully!");
+                  
+               }
+            });
+         });
+      });
+      
+   </script>
+
+   
+</body>
+
+</html>
